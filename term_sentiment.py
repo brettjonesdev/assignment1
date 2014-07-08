@@ -83,7 +83,7 @@ def main():
 
         ratio = 100 * (1 + float(pos)/uses - float(neg)/uses)
 
-        print '%s\t%0.2f' % (term, ratio)
+        print '%s %0.2f' % (term, ratio)
 
 if __name__ == '__main__':
     main()
